@@ -1,0 +1,99 @@
+    .bgimg-1, .bgimg-2 {
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("Images/Image_3.jpg");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("Images/Dog_3.jpeg");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    width: 50%;
+    text-align: Left;
+    color: #000;
+  }
+  
+  .caption span.border {
+    color: white;
+    padding: 18px;
+    font-weight: bolder;
+    font-size: xx-large;
+    letter-spacing: 5px;
+  }
+  h2{
+    color: white;
+    padding: 18px;
+  }
+  .btn {
+    background-color: rgb(252, 145, 163);
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  .btn_p{
+    margin-top: 0.5%;
+  }
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #111;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.map {
+  flex: 1;
+  height: 400px; /* Adjust the height as needed */
+}
+
+.details{
+  margin-right: 2%;
+  font-size: larger;
+}
+
+.connect{
+  padding: 20px;
+  flex: 1;
+}
+
+input{
+  height: 2rem;
+  width: 50%;
+  font-size: x-large;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px white;
+  color: white;
+}

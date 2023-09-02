@@ -1,0 +1,8 @@
+.individual_img{
+    width: 35%;
+    max-height: 200px;
+}
+.charac{
+    display: inline-block;
+    margin-right: 3%;
+}

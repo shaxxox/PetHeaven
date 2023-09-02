@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images\image-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="universal.css">
+    <link rel="stylesheet" href="puppy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="script.js"></script>
+    <script src="puppy.js"></script>
+    <title>Pet Heaven Teams</title>
+</head>
+<body>
+    <!-- Side Navigation -->
+    <div class="sidenav" id="mySidenav">
+        <p class="side_nav_content">Menu</p>
+        <hr style="background-color:white; border: solid white;border-radius: 20px; width:85%; text-align:center; margin-top:10%; margin-bottom: 20%;">
+        <a href="#" class="closebtn" style="font-size:50px;" onclick="closeNav()">&times;</a>
+        <a href="home_page.html">Home</a>
+        <a href="puppy.html"><i class="bi bi-chat-heart"></i> Pet Adoption</a>
+        <a href="release.html"><i class="bi bi-heartbreak"></i> Releasing Pets</a>
+        <a href="register.html"><i class="bi bi-box-arrow-in-left"></i> Register</a>
+    </div>
+
+    <!-- Header Section -->
+    <div class="header">
+        <header class="nav">
+            <img src="Images\image-removebg-preview.png" class="logo" style="height: 100px;" alt="Logo">
+            <p></p>
+            <p></p>
+            <p></p>
+            <a href="home_page.html" style="text-decoration: none;"><h2> Home</h2></a>
+            <a href="puppy.html" style="text-decoration: none;"><h2> Pet Adoption</h2></a>
+            <a href="release.html" style="text-decoration: none;"><h2>Releasing Pets</h2></a>
+            <a href="register.html" style="text-decoration: none;"><h2>Register</h2></a>
+            <span id="openbtn" style="font-size:30px;cursor:pointer; padding-right:3%; color:white;" onclick="openNav()">&#9776;</span>
+        </header>
+    </div>
+
+    <div style="text-align: Center;">
+        <h1 class="tittle">Adoption Gallery</h1>
+        <h4 style="font-weight: lighter;">We have many wonderful pets that are looking for their forever homes. Please scroll through our gallery below to view their profile, 
+            and click the button beneath it to contact us for <br>further information about our adoption process and be sent an application form to complete.
+            Thank you for choosing to adopt!</h4>
+    </div>
+    <hr style="width: 85%; text-align:center ; border: solid 1px lightgrey">
+
+    <!-- Main Content -->
+    <div class="puppy_gallery">
+        <div style="text-align: center;">
+            <h3>Filter: </h3>
+            <ul class="filter">
+                <li data-filter="all">All</li>
+                <li data-filter="dog">Dogs</li>
+                <li data-filter="cat">Cats</li>
+                <li data-filter="birds">Birds</li>
+                <li data-filter="fishes">Fishes</li>
+                <li data-filter="others">Others</li>
+            </ul>
+        </div>
+
+        <div class="gallery">
+            <div class="individual dog">
+                <img src="Images\Image_4.jpg" alt="Image" class="individual_img">
+                <h1>Joy</h1>
+                <h3>Characteristics:</h3>
+                <p><i class="fa fa-paw icon"></i>18 June 2000</p>
+                <p><i class="fa fa-paw icon"></i>Male</p>
+                <p><i class="fa fa-paw icon"></i>Sterilized</p>
+                <p><i class="fa fa-paw icon"></i>Not HDB Approved</p>
+                <p><i class="fa fa-paw icon"></i>Cuddly, outgoing and active</p>
+                <a href="adoption.html" class="combined-button"> Adopt Now</a>
+                <a class="combined-button" onclick="openOverlay(this.parentNode)"> Details</a>
+                <!-- Overlay -->
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <span class="closebtn" onclick="closeOverlay()">&times;</span>
+                        <!-- Add your details text here -->
+                        <h2>Joy's Details</h2>
+                        <p class="details">Joy and his sister Jolie were found all alone in the jungle when they were tiny puppies. Both of them were so small they had to be bottle fed every few hours - but that means they have grown up into very friendly dogs who love hanging out with people.
+
+                            Both Joy and Jolie are friendly, playful and smart dogs. They adore human company. All they want to do is hang out with you and play the day away (maybe even have a little snooze together?!). They have a lovely temperament and are very sweet pups.
+                            
+                            Joy is a very social personality, and gets along well with humans and with other dogs. He is quite tall and lanky now, but still behaves like a big wiggly puppy when he sees visitors.
+                            
+                            Joy is extremely food motivated and will respond well to some positive reinforcement training, to teach healthy behaviours.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="individual dog">
+                <img src="Images\Image_4.jpg" alt="Image" class="individual_img">
+                <h1>Blobby</h1>
+                <h3>Characteristics:</h3>
+                <p><i class="fa fa-paw icon"></i>18 November 2008</p>
+                <p><i class="fa fa-paw icon"></i>Male</p>
+                <p><i class="fa fa-paw icon"></i>Sterilized</p>
+                <p><i class="fa fa-paw icon"></i>Not HDB Approved</p>
+                <p><i class="fa fa-paw icon"></i>Obedient, Retarded, Stupid</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a class="combined-button" onclick="openOverlay(this.parentNode)"> Details</a>
+                <!-- Overlay -->
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <span class="closebtn" onclick="closeOverlay()">&times;</span>
+                        <!-- Add your details text here -->
+                        <h2>Blobby's Details</h2>
+                        <p class="details">Joy and his sister Jolie were found all alone in the jungle when they were tiny puppies. Both of them were so small they had to be bottle fed every few hours - but that means they have grown up into very friendly dogs who love hanging out with people.
+
+                            Both Joy and Jolie are friendly, playful and smart dogs. They adore human company. All they want to do is hang out with you and play the day away (maybe even have a little snooze together?!). They have a lovely temperament and are very sweet pups.
+                            
+                            Joy is a very social personality, and gets along well with humans and with other dogs. He is quite tall and lanky now, but still behaves like a big wiggly puppy when he sees visitors.
+                            
+                            Joy is extremely food motivated and will respond well to some positive reinforcement training, to teach healthy behaviours.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="individual cat">
+                <img src="Images\Image_4.jpg" alt="Image" class="individual_img">
+                <h1>Mary Poppins</h1>
+                <h3>Characteristics:</h3>
+                <p><i class="fa fa-paw icon"></i>30 February 5000</p>
+                <p><i class="fa fa-paw icon"></i>Female</p>
+                <p><i class="fa fa-paw icon"></i>Sterilized</p>
+                <p><i class="fa fa-paw icon"></i>Not HDB Approved</p>
+                <p><i class="fa fa-paw icon"></i>Magical, Smart, Curious</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a class="combined-button" onclick="openOverlay(this.parentNode)"> Details</a>
+                <!-- Overlay -->
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <span class="closebtn" onclick="closeOverlay()">&times;</span>
+                        <!-- Add your details text here -->
+                        <h2>Marry Poppins's Details</h2>
+                        <p class="details">Joy and his sister Jolie were found all alone in the jungle when they were tiny puppies. Both of them were so small they had to be bottle fed every few hours - but that means they have grown up into very friendly dogs who love hanging out with people.
+
+                            Both Joy and Jolie are friendly, playful and smart dogs. They adore human company. All they want to do is hang out with you and play the day away (maybe even have a little snooze together?!). They have a lovely temperament and are very sweet pups.
+                            
+                            Joy is a very social personality, and gets along well with humans and with other dogs. He is quite tall and lanky now, but still behaves like a big wiggly puppy when he sees visitors.
+                            
+                            Joy is extremely food motivated and will respond well to some positive reinforcement training, to teach healthy behaviours.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="individual cat">
+                <img src="Images\Image_4.jpg" alt="Image" class="individual_img">
+                <h1>Mary Poppins</h1>
+                <h3>Characteristics:</h3>
+                <p><i class="fa fa-paw icon"></i>30 February 5000</p>
+                <p><i class="fa fa-paw icon"></i>Female</p>
+                <p><i class="fa fa-paw icon"></i>Sterilized</p>
+                <p><i class="fa fa-paw icon"></i>Not HDB Approved</p>
+                <p><i class="fa fa-paw icon"></i>Magical, Smart, Curious</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a class="combined-button" onclick="openOverlay(this.parentNode)"> Details</a>
+                <!-- Overlay -->
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <span class="closebtn" onclick="closeOverlay()">&times;</span>
+                        <!-- Add your details text here -->
+                        <h2>Marry Poppins's Details</h2>
+                        <p class="details">Joy and his sister Jolie were found all alone in the jungle when they were tiny puppies. Both of them were so small they had to be bottle fed every few hours - but that means they have grown up into very friendly dogs who love hanging out with people.
+
+                            Both Joy and Jolie are friendly, playful and smart dogs. They adore human company. All they want to do is hang out with you and play the day away (maybe even have a little snooze together?!). They have a lovely temperament and are very sweet pups.
+                            
+                            Joy is a very social personality, and gets along well with humans and with other dogs. He is quite tall and lanky now, but still behaves like a big wiggly puppy when he sees visitors.
+                            
+                            Joy is extremely food motivated and will respond well to some positive reinforcement training, to teach healthy behaviours.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="individual birds">
+                <img src="Images\Image_4.jpg" alt="Image" class="individual_img">
+                <h1>Mary Poppins</h1>
+                <h3>Characteristics:</h3>
+                <p><i class="fa fa-paw icon"></i>30 February 5000</p>
+                <p><i class="fa fa-paw icon"></i>Female</p>
+                <p><i class="fa fa-paw icon"></i>Sterilized</p>
+                <p><i class="fa fa-paw icon"></i>Not HDB Approved</p>
+                <p><i class="fa fa-paw icon"></i>Magical, Smart, Curious</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a class="combined-button" onclick="openOverlay(this.parentNode)"> Details</a>
+                <!-- Overlay -->
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <span class="closebtn" onclick="closeOverlay()">&times;</span>
+                        <!-- Add your details text here -->
+                        <h2>Marry Poppins's Details</h2>
+                        <p class="details">Joy and his sister Jolie were found all alone in the jungle when they were tiny puppies. Both of them were so small they had to be bottle fed every few hours - but that means they have grown up into very friendly dogs who love hanging out with people.
+
+                            Both Joy and Jolie are friendly, playful and smart dogs. They adore human company. All they want to do is hang out with you and play the day away (maybe even have a little snooze together?!). They have a lovely temperament and are very sweet pups.
+                            
+                            Joy is a very social personality, and gets along well with humans and with other dogs. He is quite tall and lanky now, but still behaves like a big wiggly puppy when he sees visitors.
+                            
+                            Joy is extremely food motivated and will respond well to some positive reinforcement training, to teach healthy behaviours.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="individual birds">
+                <img src="Images\Image_4.jpg" alt="Image" class="individual_img">
+                <h1>Mary Poppins</h1>
+                <h3>Characteristics:</h3>
+                <p><i class="fa fa-paw icon"></i>30 February 5000</p>
+                <p><i class="fa fa-paw icon"></i>Female</p>
+                <p><i class="fa fa-paw icon"></i>Sterilized</p>
+                <p><i class="fa fa-paw icon"></i>Not HDB Approved</p>
+                <p><i class="fa fa-paw icon"></i>Magical, Smart, Curious</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a class="combined-button" onclick="openOverlay(this.parentNode)"> Details</a>
+                <!-- Overlay -->
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <span class="closebtn" onclick="closeOverlay()">&times;</span>
+                        <!-- Add your details text here -->
+                        <h2>Marry Poppins's Details</h2>
+                        <p class="details">Joy and his sister Jolie were found all alone in the jungle when they were tiny puppies. Both of them were so small they had to be bottle fed every few hours - but that means they have grown up into very friendly dogs who love hanging out with people.
+
+                            Both Joy and Jolie are friendly, playful and smart dogs. They adore human company. All they want to do is hang out with you and play the day away (maybe even have a little snooze together?!). They have a lovely temperament and are very sweet pups.
+                            
+                            Joy is a very social personality, and gets along well with humans and with other dogs. He is quite tall and lanky now, but still behaves like a big wiggly puppy when he sees visitors.
+                            
+                            Joy is extremely food motivated and will respond well to some positive reinforcement training, to teach healthy behaviours.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="individual others">
+                <img src="Images\Image_4.jpg" alt="Image" class="individual_img">
+                <h1>Mary Poppins</h1>
+                <h3>Characteristics:</h3>
+                <p><i class="fa fa-paw icon"></i>30 February 5000</p>
+                <p><i class="fa fa-paw icon"></i>Female</p>
+                <p><i class="fa fa-paw icon"></i>Sterilized</p>
+                <p><i class="fa fa-paw icon"></i>Not HDB Approved</p>
+                <p><i class="fa fa-paw icon"></i>Magical, Smart, Curious</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a class="combined-button" onclick="openOverlay(this.parentNode)"> Details</a>
+                <!-- Overlay -->
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <span class="closebtn" onclick="closeOverlay()">&times;</span>
+                        <!-- Add your details text here -->
+                        <h2>Marry Poppins's Details</h2>
+                        <p class="details">Joy and his sister Jolie were found all alone in the jungle when they were tiny puppies. Both of them were so small they had to be bottle fed every few hours - but that means they have grown up into very friendly dogs who love hanging out with people.
+
+                            Both Joy and Jolie are friendly, playful and smart dogs. They adore human company. All they want to do is hang out with you and play the day away (maybe even have a little snooze together?!). They have a lovely temperament and are very sweet pups.
+                            
+                            Joy is a very social personality, and gets along well with humans and with other dogs. He is quite tall and lanky now, but still behaves like a big wiggly puppy when he sees visitors.
+                            
+                            Joy is extremely food motivated and will respond well to some positive reinforcement training, to teach healthy behaviours.</p>
+                    </div>
+                </div>
+
+            </div>
+
+           
+
+            <!-- <div class="individual cat">
+                <img src="Images\Image_7.avif" alt="Image" class="individual_img">
+                <p><i class="fa fa-paw name"></i>Catty</p>
+                <p><i class="fa fa-birthday-cake name"></i>18 June 18BC</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a class="combined-button"  onclick="openOverlay(this.parentNode)"> Details</a>
+                
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <span class="closebtn" onclick="closeOverlay()">&times;</span>
+                        
+                        <h2>Catty's Details</h2>
+                        <p>Additional information about the pet goes here.Nothing</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="individual fishes">
+                <img src="Images\Image_8.webp" alt="Image" class="individual_img">
+                <p><i class="fa fa-paw name"></i>Fisshy</p>
+                <p><i class="fa fa-birthday-cake name"></i>18 June 18BC</p>
+                <p><i class="bi bi-gender-male name"></i> Male</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a href="#" class="combined-button"> Details</a>
+            </div>
+
+            <div class="individual birds">
+                <img src="Images\Image_4.jpg" alt="Image" class="individual_img">
+                <p><i class="fa fa-paw name"></i>Birdy</p>
+                <p><i class="fa fa-birthday-cake name"></i>18 June 18BC</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a href="#" class="combined-button"> Details</a>
+            </div>
+
+            <div class="individual others">
+                <img src="Images\Image_5.jpeg" alt="Image" class="individual_img">
+                <p><i class="fa fa-paw name"></i>Othery</p>
+                <p><i class="fa fa-birthday-cake name"></i>18 June 18BC</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a href="#" class="combined-button"> Details</a>
+            </div>
+
+            <div class="individual others">
+                <img src="Images\Image_5.jpeg" alt="Image" class="individual_img">
+                <p><i class="fa fa-paw name"></i>Othery</p>
+                <p><i class="fa fa-birthday-cake name"></i>18 June 18BC</p>
+                <a href="#" class="combined-button"> Adopt Now</a>
+                <a href="#" class="combined-button"> Details</a>
+            </div> -->
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const filterButtons = document.querySelectorAll(".filter li");
+            const filterableItems = document.querySelectorAll(".gallery .individual");
+    
+            filterButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    const filterValue = this.getAttribute("data-filter");
+    
+                    filterableItems.forEach(item => {
+                        if (filterValue === "all" || item.classList.contains(filterValue)) {
+                            item.style.display = "block";
+                        } else {
+                            item.style.display = "none";
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
